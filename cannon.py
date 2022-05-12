@@ -74,8 +74,9 @@ def move():
     # Detect when a target reaches the left side
     for target in targets:
         if not inside(target):
+            target.x +=400
             #targets.remove(target)
-            return
+            #return
 
     ontimer(move, 50)
 
