@@ -8,7 +8,7 @@ Exercises
 4. Change the speed of the ball.
 
 """
-
+# Rodrigo cambio la velocidad de los targets y de la pelota
 from random import randrange
 from turtle import *
 from freegames import vector
