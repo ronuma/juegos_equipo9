@@ -22,7 +22,7 @@ def tap(x, y):
     if not inside(ball):
         ball.x = -199
         ball.y = -199
-        speed.x = (x + 200) / 25
+        speed.x = (x + 200) / 15
         speed.y = (y + 200) / 25
 
 def inside(xy):
@@ -53,11 +53,11 @@ def move():
 
     # Move the existing targets
     for target in targets:
-        target.x -= 0.5
+        target.x -= 0.7
 
     # Move the cannon shot
     if inside(ball):
-        speed.y -= 0.35
+        speed.y -= 0.40
         ball.move(speed)
 
     # Make a copy of the existing target list before redrawing
