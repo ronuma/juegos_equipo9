@@ -8,15 +8,17 @@ Exercises
 4. Change the snake to respond to arrow keys.
 
 """
-
+#ian luis Vazquez Moran
 from turtle import *
 import random
+import time
 from freegames import square, vector
 
 food = vector(0, 0)
 snake = [vector(10, 0)]
 aim = vector(0, -10)
-
+i=0
+#Ian Luis Vázquez Morán
 # Rodrigo agrega los colores que pueden tener el snake y la comida
 colours = ['indigo', 'lime', 'turquoise', 'black', 'orange' ]
 snakeColour = colours[random.randint(0,4)]
@@ -35,9 +37,9 @@ def inside(head):
 
 def move():
     "Move snake forward one segment."
+    global i
     head = snake[-1].copy()
     head.move(aim)
-
     if not inside(head) or head in snake:
         square(head.x, head.y, 9, 'red')
         update()
@@ -46,18 +48,22 @@ def move():
     snake.append(head)
 
     if head == food:
+        i=0
         print('Snake:', len(snake))
         food.x = random.randrange(-15, 15) * 10
         food.y = random.randrange(-15, 15) * 10
     else:
         snake.pop(0)
-
+    if (head != food and i==40):
+        food.x = random.randrange(-15, 15) * 10
+        food.y = random.randrange(-15, 15) * 10
+        i=0
     clear()
 
     for body in snake:
         square(body.x, body.y, 9, snakeColour)
-
-    square(food.x, food.y, 9, foodColour)
+    i+=1
+    square(food.x,food.y, 9, foodColour)
     update()
     ontimer(move, 100)
 
