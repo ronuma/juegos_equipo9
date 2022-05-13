@@ -12,7 +12,6 @@ Rodrigo:
 2. Cambié la velocidad de los targets y el proyectil en el juego del archivo "cannon.py".
 3. Agregué 5 colores que se asignan aleatoriamente al snake y a la comida, checando que no sea el mismo color, en "snake.py".
 
-## Cambios:
 Ian
 1. Complete la funcion rectangle, archivo "paint.py"
 2. Hice que los objetivos no eliminados vuelvan a aparecer del lado derecho de la pantalla en la misma posicion en y, archivo "cannon.py"
