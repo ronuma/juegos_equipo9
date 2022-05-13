@@ -46,11 +46,11 @@ def rectangle(start, end):
     begin_fill()
 
     for count in range(2):
-        forward(end.x - start.x)
+        a=start.x/2
+        forward(end.x-start.x)
         left(90)
-        a=end.x/2
-        forward(a - start.x)
-
+        forward(end.x - a)
+        left(90)
     end_fill()
 
 
