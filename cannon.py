@@ -13,7 +13,7 @@ from random import randrange
 from turtle import *
 from freegames import vector
 
-ball = vector(-200, -200)
+ball = vector(-201, -201)
 speed = vector(0, 0)
 targets = []
 

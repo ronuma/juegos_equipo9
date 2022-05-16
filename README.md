@@ -16,3 +16,6 @@ Ian
 1. Complete la funcion rectangle, archivo "paint.py"
 2. Hice que los objetivos no eliminados vuelvan a aparecer del lado derecho de la pantalla en la misma posicion en y, archivo "cannon.py"
 3. Hice que la comida se recolocara aleatoreamente después de 40 frames~8seg si aún no se ha comido, archivo "snake.py"
+
+Daniel:
+1. Modifique la posición  de la pelota en cannon.py
