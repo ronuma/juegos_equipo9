@@ -10,7 +10,7 @@ Ian Vázquez, A01027225 <br>
 Rodrigo:
 1. Cambié los colores disponibles en el juego de las figuras, archivo "paint.py".
 2. Cambié la velocidad de los targets y el proyectil en el juego del archivo "cannon.py".
-3. Agregué 5 colores que se asignan aleatoriamente al snake y a la comida, checando que no sea el mismo color, en "snake.py".
+3. Agregué 5 colores que se asignan aleatoreamente al snake y a la comida, checando que no sea el mismo color, en "snake.py".
 
 Ian
 1. Complete la funcion rectangle, archivo "paint.py"
@@ -19,3 +19,5 @@ Ian
 
 Daniel:
 1. Modifique la posición  de la pelota en cannon.py
+2. Eliminé el codigo inecesario y sin terminar para prevenir erroes en paint.pt
+3. cambié la velocidad en snake.py
