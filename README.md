@@ -19,3 +19,4 @@ Ian
 
 Daniel:
 1. Modifique la posición  de la pelota en cannon.py
+2. Eliminé el codigo inecesario y sin terminar para prevenir erroes en paint.pt
